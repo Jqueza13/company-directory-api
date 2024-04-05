@@ -20,7 +20,7 @@ const props = defineProps({
                 lastName: "Perez",
                 title: "Computer Science Wizard",
                 quote: "You shall not pass!",
-                __v: 0,
+    "__v": 0
             }
         },
     },

@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ref } from 'vue'
 
 const instance = axios.create({
-    baseURL: 'https://node-app-8bio.onrender.com/',
+    baseURL: 'https://node-app-jlni.onrender.com/',
 })
 
 const employees = ref([])
