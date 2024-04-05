@@ -35,7 +35,7 @@ const props = defineProps({
             <img :src="faker.image.urlLoremFlickr({category: 'cats'})" class="rounded-t-xl"/>
             <div class="p-4">
                 <p class="m-2 text-2xl font-bold">{{ props.employee.firstName }} {{ props.employee.lastName }}</p>
-                <p class="mb-3 font-normal text-gray-700"> {{ peops.employee.title }}</p>
+                <p class="mb-3 font-normal text-gray-700"> {{ props.employee.title }}</p>
                 <p class="mb-3 font-normal text-gray-700"> {{ props.employee.quote }}</p>
             </div>
         </div>
